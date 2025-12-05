@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    ;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFEFA;
+
+}
+
+#Hero {
+    /* padding */
+    /* margin  */
+    margin-bottom: 150px;
+    padding-top: 60px;
+    background: url(image/Hero-bg.png);
+}
+
+#hero-container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    width: 87.5%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#hero-content {
+    padding-bottom: 100px;
+}
+
+#hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#hero-content h1 span {
+    color: #872BFF;
+}
+
+#hero-content p {
+    font-size: 16;
+    font-weight: 500;
+    color: #8A8A8A;
+    line-height: 26px;
+
+}
+
+/* common things*/
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+
+}
+
+.btn {
+    padding: 16px 32px;
+    background-color: #872BFF;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 10px;
+    font-weight: bold;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    transition: all .5s;
+}
+
+.bttn {
+    background-color: #FFFFFF;
+    padding: 16px 32px;
+    border-radius: 30px;
+    border: 2px solid #872BFF;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+
+}
+
+.heading {
+    margin-bottom: 60px;
+
+}
+
+.heading h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #6A14DA;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 44px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 4px #00000025;
+    border-radius: 16px;
+    transition: all .2s;
+
+}
+
+.card * {
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.card p {
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.card a {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.project-card {
+    padding: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #872BFF;
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 24px;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 60px;
+
+
+}
+
+.project-content h3 {
+    color: #0E0E0E70;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.project-content p {
+    color: #0E0E0E70;
+}
+
+.project-img img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.project-content * {
+    margin-bottom: 20px;
+}
+
+.company-card {
+    display: flex;
+
+}
+
+.brands {
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px #00000025;
+    border-radius: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+.company-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+}
+
+.card:hover {
+    background-color: #ff00bf;
+    color: black;
+}
+
+.brands:hover {
+    background-color: #64d5e9;
+    color: black;
+}
+
+
+
+.btn-container {
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+
+
+#hero-image {
+    width: 500px;
+    vertical-align: middle;
+
+}
+
+/* skill section */
+#container {
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+#skill {
+    margin-bottom: 150px;
+}
+
+/* projects section */
+#projects {
+    margin-bottom: 150px;
+}
+
+/* experience section */
+
+#experience {
+    margin-bottom: 150px;
+
+}
+
+#footer {
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #872BFF;
+    font-size: 16px;
+    background-color: #ffffff;
+    gap: 900px;
+
+
+}
+
+#footer h4 {
+    justify-content: flex-start;
+    color: #5B575780;
+}
