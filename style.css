@@ -193,7 +193,6 @@ body {
     box-shadow: 0 4px 4px #00000025;
     border-radius: 16px;
     transition: all 0.3s;
-    cursor: pointer;
 }
 
 
@@ -206,15 +205,6 @@ body {
 
 }
 
-.card:hover {
-    background-color: #ff00bf;
-    color: black;
-}
-
-.brands:hover {
-    background-color: #64d5e9;
-    color: black;
-}
 
 
 
